@@ -1,3 +1,5 @@
+CREATE DATABASE  IF NOT EXISTS `ppmx_v2` /*!40100 DEFAULT CHARACTER SET utf8 */ /*!80016 DEFAULT ENCRYPTION='N' */;
+USE `ppmx_v2`;
 -- MySQL dump 10.13  Distrib 8.0.19, for Linux (x86_64)
 --
 -- Host: 127.0.0.1    Database: ppmx_v2
@@ -640,4 +642,4 @@ CREATE TABLE `usuarios` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-02-18 14:12:26
+-- Dump completed on 2020-02-18 14:17:18
