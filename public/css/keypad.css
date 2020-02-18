@@ -1,0 +1,18 @@
+.keypad {position: fixed; width: 100%; bottom: 0;left: 0; top:0;opacity: 0;transform: translateY(100%);-webkit-transform: translateY(100%);animation: slide-out 0.4s forwards;-webkit-animation: slide-out 0.4s forwards;}
+.keypad.active {display: block}
+.keypad table{position: absolute; bottom: 0; width:100%;text-align: center; vertical-align: middle; border-collapse: collapse; border-spacing: 0;}
+.keypad.active {
+    animation: slide-in 0.4s forwards;
+    -webkit-animation: slide-in 0.4s forwards;
+}
+.keypad table > tbody> tr > td {border: 1px solid #aaa; height: 110px;}
+.keypad table button {width: 100%; height: 100%;margin: 0; padding: 0;border: none;background: #fff; outline: none;font-size: 20px;font-weight: lighter;}
+.keypad table button.text-sm {font-size: 15px;}
+.keypad table button:active {background: #efefef;}
+
+
+@keyframes slide-in { 100% { transform: translateY(0%); opacity: 1} }
+@-webkit-keyframes slide-in { 100% { -webkit-transform: translateY(0%); opacity: 1} }
+    
+@keyframes slide-out { 0% { transform: translateY(0%); } 100% { transform: translateY(100%); } }
+@-webkit-keyframes slide-out { 0% { -webkit-transform: translateY(0%); } 100% { -webkit-transform: translateY(100%); }}

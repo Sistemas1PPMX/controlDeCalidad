@@ -1,0 +1,2 @@
+https://stackoverflow.com/questions/39860273/laravel-to-sql-server-sqlsrv-pdoexception-could-not-find-driver
+https://docs.microsoft.com/en-us/sql/connect/odbc/linux-mac/installing-the-microsoft-odbc-driver-for-sql-server?view=sql-server-2017

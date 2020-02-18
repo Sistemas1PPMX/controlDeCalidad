@@ -1,0 +1,3 @@
+<table>
+	<thead></thead>
+</table>
